@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "202688433711",
+    "project_id": "macrollector",
+    "storage_bucket": "macrollector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202688433711:android:1f1e1fb97184bb156d80da",
+        "android_client_info": {
+          "package_name": "evanbai.com.macrollector_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202688433711-vegv1g5lvg8ikli9l55vmts5db3ie432.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD19len2E5yCEX6bLfMF9dHVLAFkVPx680"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202688433711-vegv1g5lvg8ikli9l55vmts5db3ie432.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
