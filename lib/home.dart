@@ -73,7 +73,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: const Text(
-          'Foods Neural Network',
+          'Macrollector',
           style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.w200,
