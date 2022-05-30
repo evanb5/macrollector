@@ -1,0 +1,144 @@
+/*To format logo*/
+.logo {
+  position: absolute;
+  top: -138px;
+  left: -50px;
+  height: 480px;
+  width: auto;
+  z-index: 100;
+}
+
+/*To format logout button*/
+.logoutButton {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format menu bar*/
+.menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 140px;
+  width: 100%;
+  background-color: #a5d3e8;
+  z-index: 0;
+}
+
+.welcome {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  font-family: Verdana;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+.showAge {
+  position: absolute;
+  top: 280px;
+  left: 40px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  color: black;
+  z-index: 100;
+}
+
+.showHeight {
+  position: absolute;
+  top: 340px;
+  left: 40px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  color: black;
+  z-index: 100;
+}
+
+.showWeight {
+  position: absolute;
+  top: 400px;
+  left: 40px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  color: black;
+  z-index: 100;
+}
+
+.showGender {
+  position: absolute;
+  top: 460px;
+  left: 40px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  color: black;
+  z-index: 100;
+}
+
+.showBMI {
+  position: absolute;
+  top: 520px;
+  left: 40px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  color: black;
+  z-index: 100;
+}
+
+.showCalories {
+  position: absolute;
+  top: 580px;
+  left: 40px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  color: black;
+  z-index: 100;
+}
+
+.adviceHead {
+  position: absolute;
+  top: 280px;
+  left: 600px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+.showAdvice {
+  position: absolute;
+  top: 320px;
+  left: 600px;
+  width: 800px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  color: black;
+  z-index: 100;
+}
+
+.guide {
+  position: absolute;
+  top: 580px;
+  left: 600px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  color: black;
+  z-index: 100;
+}
+
+.foodGuide {
+  position: absolute;
+  top: 640px;
+  left: 600px;
+  width: 400px;
+  height: auto;
+}
