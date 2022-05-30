@@ -1,0 +1,272 @@
+/*To format logo*/
+.logo {
+  position: absolute;
+  top: -138px;
+  left: -50px;
+  height: 480px;
+  width: auto;
+  z-index: 100;
+}
+
+/*To format login button*/
+.login {
+  position: absolute;
+  top: 20px;
+  right: 505px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format signup button*/
+.signUp {
+  position: absolute;
+  top: 20px;
+  right: 290px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format FAQ button*/
+.faqButton {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format menu bar*/
+.menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 140px;
+  width: 100%;
+  background-color: #a5d3e8;
+  z-index: 0;
+}
+
+/*To format page title*/
+.title {
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  font-family: Verdana;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format question 1*/
+.q1 {
+  position: absolute;
+  top: 210px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format answer 1*/
+.a1 {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  width: 700px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  z-index: 100;
+}
+
+/*To format question 2*/
+.q2 {
+  position: absolute;
+  top: 420px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format answer 2*/
+.a2 {
+  position: absolute;
+  top: 460px;
+  left: 30px;
+  width: 700px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  z-index: 100;
+}
+
+/*To format question 3*/
+.q3 {
+  position: absolute;
+  top: 630px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format answer 3*/
+.a3 {
+  position: absolute;
+  top: 670px;
+  left: 30px;
+  width: 700px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  z-index: 100;
+}
+
+/*To format question 4*/
+.q4 {
+  position: absolute;
+  top: 840px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format answer 4*/
+.a4 {
+  position: absolute;
+  top: 880px;
+  left: 30px;
+  width: 700px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  z-index: 100;
+}
+
+/*To format question 5*/
+.q5 {
+  position: absolute;
+  top: 1050px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format answer 5*/
+.a5 {
+  position: absolute;
+  top: 1090px;
+  left: 30px;
+  width: 700px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  z-index: 100;
+}
+
+/*To format ask question prompt*/
+.ask {
+  position: absolute;
+  top: 1350px;
+  left: 30px;
+  font-family: Verdana;
+  font-size: 25px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format question box*/
+textarea[id=question] {
+  position: absolute;
+  top: 1450px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  z-index: 100;
+}
+
+/*To format quesiton submission button*/
+.askQues {
+  position: absolute;
+  top: 1715px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format image collection on right*/
+.img1 {
+  position: absolute;
+  top: 140px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
+
+.img2 {
+  position: absolute;
+  top: 440px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
+
+.img3 {
+  position: absolute;
+  top: 740px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
+
+.img4 {
+  position: absolute;
+  top: 1040px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
+
+.img5 {
+  position: absolute;
+  top: 1340px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
+
+.img6 {
+  position: absolute;
+  top: 1640px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
