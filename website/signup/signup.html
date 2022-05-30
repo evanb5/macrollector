@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Macrollector</title>
+    <link rel='icon' href='images/newIcon.png'>
+    <link href="./signup/signup.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!Menu>
+    <div class='menu'>
+      <a href='index.html'>
+        <img class='logo' src='images/logo.png'>
+      </a>
+      <a href='signup.html'>
+        <p class='signUp'>Sign up</p>
+      </a>
+      <a href='login.html'>
+        <p class='login'>Log in</p>
+      </a>
+      <a href='faq.html'>
+        <p class='faqButton'>FAQ</p>
+      </a>
+    </div>
+    
+    <!Back Button>
+    <a href='index.html'>
+      <p class='back'>Back to Home</p>
+    </a>
+
+    <!Account Setup Instructions>
+    <p class='surveyTitle'>User Account Setup</p>
+    <p class='surveyInstructions'>Welcome to Macrollector! To set up your account, you will first need to complete this user information survey. You do not need to set up an account to use Macrollector, but doing so will allow us to optimize your experience with this app. We ensure that any information you input will remain confidential and anonymous.</p>
+
+    <!Question 1>
+    <p class='q1'>First Name:</p>
+    <input type='text' id='fName' name='fName'></br>
+
+    <!Question 2>
+    <p class='q2'>Last Name:</p>
+    <input type='text' id='lName' name='lName'></br>
+
+    <!Question 3>
+    <p class='q3'>Choose a Username:</p>
+    <input type='text' id='username' name='username'></br>
+
+    <!Question 4>
+    <p class='q4'>Choose a Password:</p>
+    <input type='password' id='pass' name='pass'></br>
+
+    <!Question 5>
+    <p class='q5'>Confirm Password:</p>
+    <input type='password' id='confirmPass' name='confirmPass'></br>
+
+    <!Question 6>
+    <p class='q6'>Biological Gender:</p>
+    <input type='radio' id='male' name='gender' value='Male'>
+    <label for='male'>Male</label></br>
+    <input type='radio' id='female' name='gender' value='Female'>
+    <label for='female'>Female</label></br>
+
+    <!Question 7>
+    <p class='q7'>Age:</p>
+    <input type='number' value='0' id='age' name='age' min='0' max='130'>
+    
+    <!Question 8>
+    <p class='q8'>Height in cm:</p>
+    <input type='number' value='0' id='height' name='height' min='0' max='300'>
+
+    <!Question 9>
+    <p class='q9'>Weight in kg:</p>
+    <input type='number' value='0' id='weight' name='weight' min='0' max='400'>
+
+    <!Submit Button>
+      <button class='submit' type='button' onclick='checkInputs1()'>Sign Up</button>
+  
+    <!Image1>
+    <img class='image1' src='images/mealPrep.jpg'>
+
+    <!Image2>
+    <img class='image2' src='images/soup.jpg'>
+
+    <!Image3>
+    <img class='image3' src='images/rice.jpg'>
+
+    <!Image 4>
+    <img class='image4' src='images/noodles.jpg'>
+    <script src="./login/login.js"></script>
+    <script src="./signup/signup.js"></script>
+  </body>
+</html>
