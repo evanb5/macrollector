@@ -1,0 +1,334 @@
+/*To format logo*/
+.logo {
+  position: absolute;
+  top: -138px;
+  left: -50px;
+  height: 480px;
+  width: auto;
+  z-index: 100;
+}
+
+/*To format login button*/
+.login {
+  position: absolute;
+  top: 20px;
+  right: 505px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format signup button*/
+.signUp {
+  position: absolute;
+  top: 20px;
+  right: 290px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format FAQ button*/
+.faqButton {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format menu bar*/
+.menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 140px;
+  width: 100%;
+  background-color: #a5d3e8;
+  z-index: 0;
+}
+
+/*To format back button*/
+.back {
+  position: absolute;
+  top: 125px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  font-weight: bold;
+  color: #59c20a;
+  z-index: 100;
+}
+
+/*To create underline when hovering back button*/
+.back:hover{
+  text-decoration:underline;
+}
+
+/*To format survey title*/
+.surveyTitle {
+  position: absolute;
+  top: 180px;
+  left: 30px;
+  font-family: Verdana;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format survey instructions*/
+.surveyInstructions {
+  position: absolute;
+  top: 240px;
+  left: 30px;
+  width: 700px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  z-index: 100;
+}
+
+/*To format question 1*/
+.q1 {
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=fName] {
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  width: 200px;
+  z-index: 100;
+}
+
+/*To format question 2*/
+.q2 {
+  position: absolute;
+  top: 480px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=lName] {
+  position: absolute;
+  top: 520px;
+  left: 30px;
+  width: 200px;
+  z-index: 100;
+}
+
+/*To format question 3*/
+.q3 {
+  position: absolute;
+  top: 560px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=username] {
+  position: absolute;
+  top: 600px;
+  left: 30px;
+  width: 200px;
+  z-index: 100;
+}
+
+/*To format question 4*/
+.q4 {
+  position: absolute;
+  top: 640px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=pass] {
+  position: absolute;
+  top: 680px;
+  left: 30px;
+  width: 200px;
+  z-index: 100;
+}
+
+/*To format question 5*/
+.q5 {
+  position: absolute;
+  top: 720px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=confirmPass] {
+  position: absolute;
+  top: 760px;
+  left: 30px;
+  width: 200px;
+  z-index: 100;
+}
+
+/*To format question 6*/
+.q6 {
+  position: absolute;
+  top: 800px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=male] {
+  position: absolute;
+  top: 840px;
+  left: 30px;
+}
+
+label[for=male] {
+  position: absolute;
+  top: 840px;
+  left: 60px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=female] {
+  position: absolute;
+  top: 860px;
+  left: 30px;
+}
+
+label[for=female] {
+  position: absolute;
+  top: 860px;
+  left: 60px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+/*To format question 7*/
+.q7 {
+  position: absolute;
+  top: 900px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=age] {
+  position: absolute;
+  top: 940px;
+  left: 30px;
+  width: 70px;
+  font-family: Trebuchet MS;
+}
+
+/*To format question 8*/
+.q8 {
+  position: absolute;
+  top: 980px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=height] {
+  position: absolute;
+  top: 1020px;
+  left: 30px;
+  width: 70px;
+  font-family: Trebuchet MS;
+}
+
+/*To format question 9*/
+.q9 {
+  position: absolute;
+  top: 1060px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=weight] {
+  position: absolute;
+  top: 1100px;
+  left: 30px;
+  width: 70px;
+  font-family: Trebuchet MS;
+}
+
+/*To format signup button*/
+.submit {
+  position: absolute;
+  top: 1200px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format image collection on right*/
+.image1 {
+  position: absolute;
+  top: 140px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
+
+.image2 {
+  position: absolute;
+  top: 440px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
+
+.image3 {
+  position: absolute;
+  top: 740px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
+
+.image4 {
+  position: absolute;
+  top: 1040px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 99;
+}
