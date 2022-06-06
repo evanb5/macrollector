@@ -121,7 +121,7 @@ class _HomeState extends State<Home> {
                                 ),
                                 _output != null
                                     ? Text(
-                                        'The object is: ${_output[0]['label']}!',
+                                        'This is a: ${_output[0]['label']}, ${_output[0]['calories']} calories!',
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 18,
@@ -176,7 +176,7 @@ class _HomeState extends State<Home> {
                         ),
                       ),
                       ElevatedButton(
-                        child: const Text('Open URL'),
+                        child: const Text('Macrollector Official Website'),
                         onPressed: _launchUrl,
                       )
                     ],

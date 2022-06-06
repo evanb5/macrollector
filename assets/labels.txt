@@ -13,7 +13,7 @@ eggplant
 garlic
 ginger
 grapes
-jalepeno
+jalapeno
 kiwi
 lemon
 lettuce
@@ -26,7 +26,7 @@ peas
 pineapple
 pomegranate
 potato
-raddish
+radish
 soy beans
 spinach
 sweetcorn
