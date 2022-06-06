@@ -1,0 +1,193 @@
+/*To format logo*/
+.logo {
+  position: absolute;
+  top: -138px;
+  left: -50px;
+  height: 480px;
+  width: auto;
+  z-index: 100;
+}
+
+/*To format login button*/
+.login {
+  position: absolute;
+  top: 20px;
+  right: 505px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format signup button*/
+.signUp {
+  position: absolute;
+  top: 20px;
+  right: 290px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format FAQ button*/
+.faqButton {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format menu bar*/
+.menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 140px;
+  width: 100%;
+  background-color: #a5d3e8;
+  z-index: 0;
+}
+
+/*To format welcome section*/
+.intro {
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  height: 600px;
+  width: 100%;
+  background-color: #698fba;
+  z-index: 0;
+}
+
+/*To format welcome picture*/
+.introPic {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 600px;
+  width: 700px;
+  object-fit: cover;
+  z-index: 100;
+}
+
+/* To format welcome title*/
+.introTitle {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  text-align: right;
+  font-family: Verdana;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  z-index: 100;
+}
+
+/*To format welcome text*/
+.introText {
+  position: absolute;
+  top: 110px;
+  right: 30px;
+  text-align: right;
+  width: 800px;
+  min-width: 600px;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  color: white;
+  z-index: 100;
+}
+
+/*To format signup prompt*/
+.getAcc {
+  position: absolute;
+  top: 400px;
+  right: 30px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffbdd9;
+  z-index: 100;
+}
+
+/*To format login prompt*/
+.getIn {
+  position: absolute;
+  top: 460px;
+  right: 30px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffbdd9;
+  z-index: 100;
+}
+
+/*To format FAQ section*/
+.faq {
+  position: absolute;
+  top: 740px;
+  left: 0px;
+  height: 600px;
+  width: 100%;
+  background-color: #698fba;
+  z-index: 0;
+}
+
+/*To format FAQ picture*/
+.faqPic {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 600px;
+  width: 820px;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* To format FAQ title*/
+.faqTitle {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  font-family: Verdana;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  z-index: 100;
+}
+
+/*To format FAQ text*/
+.faqText {
+  position: absolute;
+  top: 160px;
+  left: 30px;
+  width: 600px;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  color: white;
+  z-index: 100;
+}
+
+/*To format FAQ prompt*/
+.faqPage {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffbdd9;
+  z-index: 100;
+}

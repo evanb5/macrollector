@@ -1,0 +1,187 @@
+/*To format logo*/
+.logo {
+  position: absolute;
+  top: -138px;
+  left: -50px;
+  height: 480px;
+  width: auto;
+  z-index: 100;
+}
+
+/*To format login button*/
+.login {
+  position: absolute;
+  top: 20px;
+  right: 505px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format signup button*/
+.signUp {
+  position: absolute;
+  top: 20px;
+  right: 290px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format FAQ button*/
+.faqButton {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  text-align: right;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 100;
+}
+
+/*To format menu bar*/
+.menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 140px;
+  width: 100%;
+  background-color: #a5d3e8;
+  z-index: 0;
+}
+
+/*To format image collection*/
+.image1 {
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  z-index: 50;
+}
+
+.image2 {
+  position: absolute;
+  top: 340px;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  z-index: 50;
+}
+
+.image3 {
+  position: absolute;
+  top: 540px;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  z-index: 50;
+}
+
+/*To format login box*/
+.box {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  z-index: 99;
+}
+
+/*To format back button*/
+.back {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  font-weight: bold;
+  color: #59c20a;
+  z-index: 100;
+}
+
+/*To create underline when hovering back button*/
+.back:hover{
+  text-decoration:underline;
+}
+
+/*To format page title*/
+.message {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  font-family: Verdana;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*To format page instructions*/
+.text {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  width: 700px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  z-index: 100;
+}
+
+/*To format username fill*/
+.user {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=username] {
+  position: absolute;
+  top: 240px;
+  left: 30px;
+  width: 200px;
+  z-index: 100;
+}
+
+/*To format password fill*/
+.pass {
+  position: absolute;
+  top: 280px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  z-index: 100;
+}
+
+input[id=password] {
+  position: absolute;
+  top: 320px;
+  left: 30px;
+  width: 200px;
+  z-index: 100;
+}
+
+/*To format submit button*/
+.submit {
+  position: absolute;
+  top: 380px;
+  left: 30px;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 100;
+}
