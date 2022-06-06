@@ -39,6 +39,7 @@ dependencies:
   camera: ^0.9.4+17
   path_provider: ^2.0.9
   google_ml_kit: ^0.7.3
+  url_launcher: ^6.1.2
 
 dev_dependencies:
   flutter_test:
